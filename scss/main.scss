@@ -1,32 +1,5 @@
-$primary-color: #444;
-$secondary-color: #2082ff;
-$show-home-image: true;
-$home-image: url(../img/image.jpg);
-
-@mixin easeOut {
-  transition: all 0.5s ease-out;
-}
-
-@mixin image {
-  @if $show-home-image {
-    &#bg-img {
-      background: $home-image;
-      background-attachment: fixed;
-      background-size: cover;
-
-      .overlay {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        background: $primary-color;
-        opacity: 0.5;
-        z-index: -1;
-      }
-    }
-  }
-}
+@import "_config";
+@import "_menu";
 
 html {
   font-size: 10px;
