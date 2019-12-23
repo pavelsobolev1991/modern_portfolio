@@ -67,6 +67,8 @@
 }
 
 @include mediaSm {
+  $show-home-image: false;
+
   main#home h1 {
     margin-top: 10vh;
   }
