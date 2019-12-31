@@ -64,6 +64,7 @@ main {
     }
   }
   &#home {
+    overflow: hidden;
     h1 {
       margin-top: 200px;
     }
@@ -131,6 +132,9 @@ main {
 }
 
 // Work/Projects
+.Description {
+  font-size: 15px;
+}
 
 .projects {
   display: grid;
@@ -139,6 +143,7 @@ main {
 
   img {
     width: 100%;
+    min-height: 158px;
     border: 3px #fff solid;
 
     &:hover {
